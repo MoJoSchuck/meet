@@ -102,6 +102,9 @@ To build a serverless, progressive web application (PWA) with React using a test
 ## Access the Live Application
 The live application is available at [https://mojoschuck.github.io/meet/](https://mojoschuck.github.io/meet/)
 
+## Serverless Functions
+This application uses serverless functions to handle certain backend processes, primarily through AWS Lambda. Serverless functions are used to authenticate users with the Google Calendar API and fetch event data securely and efficiently. By leveraging serverless technology, the app can scale effortlessly to handle varying loads, reducing operational costs and ensuring high availability without the need for manual server management.
+
 ## Monitoring and Maintenance
 The application is monitored using [performance monitoring tool]. Please refer to the [tool's documentation] for more details on how to set up and view performance metrics.
 
