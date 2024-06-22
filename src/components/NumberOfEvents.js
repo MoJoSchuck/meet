@@ -1,8 +1,14 @@
 // src/components/NumberOfEvents.js
 import React, { useState } from 'react';
 
-const NumberOfEvents = () => {
+const NumberOfEvents = ({ setCurrentNOE }) => {
   const [numberOfEvents, setNumberOfEvents] = useState(32);
+
+  const handleInputChanged = (event) => {
+    const value = Number(event.target.value);
+    setNumberOfEvents(value);
+    setCurrentNOE(value); // Props verwenden
+  };
 
   return (
     <div id="number-of-events">
@@ -11,7 +17,7 @@ const NumberOfEvents = () => {
         id="number-of-events-input"
         type="number"
         value={numberOfEvents}
-        onChange={(e) => setNumberOfEvents(Number(e.target.value))}
+        onChange={handleInputChanged}
         role="textbox"
       />
     </div>
