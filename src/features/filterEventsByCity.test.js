@@ -6,8 +6,10 @@ import userEvent from '@testing-library/user-event';
 
 const feature = loadFeature('./src/features/filterEventsByCity.feature');
 
+// Feauture 1
 defineFeature(feature, test => {
 
+    // Scenario 1
     test('When user hasn’t searched for a city, show upcoming events from all cities.', ({ given, when, then }) => {
         given('user hasn’t searched for any city', () => {
 
@@ -30,6 +32,7 @@ defineFeature(feature, test => {
         });
     });
 
+    // Scenario 2
     test('User should see a list of suggestions when they search for a city.', ({ given, when, then }) => {
         let AppComponent;
         given('the main page is open', () => {
@@ -51,6 +54,7 @@ defineFeature(feature, test => {
         });
     });
 
+    // Scenario 3
     test('User can select a city from the suggested list.', ({ given, and, when, then }) => {
         let AppComponent;
         let AppDOM;
