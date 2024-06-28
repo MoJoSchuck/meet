@@ -21,7 +21,7 @@ const App = () => {
         if (navigator.onLine) {
             setWarningAlert("")
         } else {
-            setWarningAlert("Offline App")
+            setWarningAlert("You are offline. The displayed list may not be up to date")
         }
         fetchData();
     }, [currentCity, currentNOE]);
