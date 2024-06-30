@@ -83,9 +83,15 @@ input[type="number"] {
   bottom: 5px;
   padding: 5px 8px;
   border-radius: 4px;
+  border-color: #bcdcdb;
+  background-color: white;
   outline: none;
   cursor: pointer;
 }
+
+.details-btn:hover {
+    background-color: #bcdcdb;
+  }
 
 .alerts-container {
     position: fixed;
