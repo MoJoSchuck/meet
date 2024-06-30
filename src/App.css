@@ -93,4 +93,18 @@ input[type="number"] {
     left: 20px;
     width: 250px;
     z-index: 1000;
+}
+
+.charts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+    .charts-container {
+      grid-template-columns: 1fr;
+    }
   }
