@@ -108,7 +108,7 @@ The live application is available at [https://mojoschuck.github.io/meet/](https:
 <img src="https://github.com/user-attachments/assets/35a8755b-64bb-4879-a16e-1fe10ddf0fd3" alt="Web View" width="600">
 
 ### Mobile View
-<img src="https://github.com/user-attachments/assets/ecdd4d13-655c-4aff-9ed4-016dd18b10a7" alt="Mobile View" width="299">
+<img src="https://github.com/user-attachments/assets/905d8339-3ae4-488d-83b3-63168ff51caf" alt="Mobile View" width="299">
 
 ## Serverless Functions
 This application uses serverless functions to handle certain backend processes, primarily through AWS Lambda. Serverless functions are used to authenticate users with the Google Calendar API and fetch event data securely and efficiently. By leveraging serverless technology, the app can scale effortlessly to handle varying loads, reducing operational costs and ensuring high availability without the need for manual server management.
