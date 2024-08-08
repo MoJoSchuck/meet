@@ -105,7 +105,7 @@ The live application is available at [https://mojoschuck.github.io/meet/](https:
 ## Screenshots
 
 ### Web View
-<img src="https://github.com/user-attachments/assets/35a8755b-64bb-4879-a16e-1fe10ddf0fd3" alt="Web View" width="600">
+<img src="https://github.com/user-attachments/assets/38214d57-961c-4dbd-809d-43bf7b09d8f1" alt="Web View" width="600">
 
 ### Mobile View
 <img src="https://github.com/user-attachments/assets/905d8339-3ae4-488d-83b3-63168ff51caf" alt="Mobile View" width="299">
